@@ -5,27 +5,26 @@
 */
 
 /**
- * The MIT License (MIT)
+ * Licencia MIT (MIT)
  * 
- * Copyright (c) 2014 Liam Brummitt
+ * Derechos de autor (c) 2022 BYJU'S FutureSchool
  * 
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
+ * El permiso se otorga, sin costo, a cualquier persona que obtenga una copia 
+ * de este programa y archivos asociados (el "software") , para lidiar 
+ * con el software sin restricciones, incluyendo también sin limitaciones el uso,
+ * copia,modificación, mezcla, publicación, distribución, sublicencia y/o vender copias
+ * del software, y permitir a las personas a quienes se les diseñó el software, ser
+ * sujetos a las siguientes condiciones:
  * 
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
+ * Los derechos de autor antes mencionados y este permiso deben ser incluidos en 
+ * todas las copias o porciones sustanciales del software.
  * 
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
+ * EL SOFTWARE SE PROVEE "TAL CUAL ES", SIN NINGUNA GARANTIA, EXPRESA O
+ * IMPLICITA, INCLUYENDO PERO NO LIMITANDOSE A LAS GARANTÍAS DE COMERCIABILIDAD, 
+ * ADECUADOA PARA UN PROPOSITO EN PARTICUAL SIN INFRINGIMIENTO. POR NINGUN MOTIVO
+ * DEBEN LOS AUTORES O PORTADORES DE LOS DERECHOS DE AUTOR SER RESPONSABLES DE NINGUNA QUEJA, 
+ * RESPONSABILIDAD, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO U OTRO, SURGIDOS DE DAÑOS
+ * U OTROS DENTRO O FUERA EN CONEXIÓN CON EL SOFTWARE O EL USO O AJUSTES EN EL SOFTWARE.
  */
 
 (function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.Matter = f()}})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(_dereq_,module,exports){
